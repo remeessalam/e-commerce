@@ -2,8 +2,8 @@ import ReactPlayer from "react-player";
 import bannerbgvid from "../assets/video/banner-landing.mp4";
 const Banner = () => {
   return (
-    <div className="relative w-screen h-[70vh] overflow-hidden  flex items-center justify-center bg-black text-white">
-      <div className="absolute w-screen h-[70vh] top-0 overflow-hidden">
+    <div className="relative w-screen h-100vh sm:h-[70vh] overflow-hidden  flex items-center justify-center bg-black text-white">
+      <div className="absolute w-screenh-100vh sm:h-[70vh] top-0 overflow-hidden">
         {/* <img
           src={bannerimage}
           alt="banner-image"
@@ -18,7 +18,7 @@ const Banner = () => {
           loop
           pip={false}
           width="100vw"
-          height="70vh"
+          height="100%"
           config={{
             file: {
               attributes: {
@@ -28,7 +28,7 @@ const Banner = () => {
               },
             },
           }}
-          className=" object-cover  opacity-50"
+          className=" object-cover h-100vh sm:h-[70vh]  opacity-50"
         />
 
         {/* <div className="absolute inset-0 bg-gradient-to-r from-black via-black/10 to-black/10" /> */}
@@ -45,7 +45,7 @@ const Banner = () => {
             </h1>
             <p
               data-aos="fade-up"
-              className=" mt-4 lg:mt-0 text-xl text-gray-300 max-w-3xl "
+              className=" mt-4 lg:mt-0 sm:text-xl text-gray-300 max-w-3xl "
             >
               Starting your e-commerce company with Boostmysites is a
               streamlined and empowering journey for aspiring entrepreneurs.
