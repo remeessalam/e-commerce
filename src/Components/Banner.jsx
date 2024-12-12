@@ -3,7 +3,7 @@ import bannerbgvid from "../assets/video/banner-landing.mp4";
 const Banner = () => {
   return (
     <div className="relative w-screen h-100vh sm:h-[70vh] overflow-hidden  flex items-center justify-center bg-black text-white">
-      <div className="absolute w-screenh-100vh sm:h-[70vh] top-0 overflow-hidden">
+      <div className="absolute w-screen h-100vh sm:h-[70vh] top-0 overflow-hidden">
         {/* <img
           src={bannerimage}
           alt="banner-image"
@@ -25,6 +25,7 @@ const Banner = () => {
                 style: {
                   objectFit: "cover",
                   width: "100vw",
+                  height: "100%",
                 },
               },
             },
