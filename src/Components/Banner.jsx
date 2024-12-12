@@ -24,6 +24,7 @@ const Banner = () => {
               attributes: {
                 style: {
                   objectFit: "cover",
+                  width: "100vw",
                 },
               },
             },

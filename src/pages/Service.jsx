@@ -1,7 +1,8 @@
 import Banner from "../Components/Banner";
-import Serviceslist from "../Components/Serviceslist";
+// import Serviceslist from "../Components/Serviceslist";
 import Subscription from "../Components/Subscription";
 import FAQ from "../Components/FAQ";
+import Testimonials from "../Components/Testimonials";
 
 const Service = () => {
   return (
@@ -10,6 +11,7 @@ const Service = () => {
       {/* <Serviceslist /> */}
       <Subscription />
       <FAQ />
+      <Testimonials />
     </div>
   );
 };
