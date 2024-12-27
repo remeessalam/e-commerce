@@ -22,15 +22,21 @@ const DropShiping = () => {
       <DropShippinFaq />
       <div className="wrapper px-4 py-8">
         <section>
-          <h2 className="text-2xl font-bold mb-4 text-primary1">
+          <h2
+            className="text-2xl font-bold mb-4 text-primary1"
+            data-aos="fade-up"
+          >
             Get Started Today
           </h2>
-          <p className="mb-4">
+          <p className="mb-4" data-aos="fade-up">
             Boostmysites is your trusted partner in drop shipping success. Let
             us handle the complexities while you focus on building your brand
             and serving your customers.
           </p>
-          <button className="bg-primary1 text-black font-bold py-2 px-4 rounded hover:bg-primary transition duration-300">
+          <button
+            data-aos="fade-up"
+            className="bg-primary1 text-black font-bold py-2 px-4 rounded hover:bg-primary transition duration-300"
+          >
             Contact Us
           </button>
         </section>

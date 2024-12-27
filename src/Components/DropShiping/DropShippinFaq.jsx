@@ -12,10 +12,13 @@ const DropShippinFaq = () => {
     <div className="min-h-screen py-12 sm: py16 ">
       <div className="wrapper">
         <div className="text-center mb-6">
-          <h1 className="text-3xl font-bold text-primary1 sm:text-4xl">
+          <h1
+            className="text-3xl font-bold text-primary1 sm:text-4xl"
+            data-aos="fade-up"
+          >
             Frequently Asked Questions About Drop Shipping
           </h1>
-          <p className="mt-2 text-lg text-gray-100">
+          <p className="mt-2 text-lg text-gray-100" data-aos="fade-up">
             Everything you need to know about starting and running a drop
             shipping business
           </p>
@@ -23,7 +26,11 @@ const DropShippinFaq = () => {
 
         <div className=" rounded-lg shadow-lg ">
           {dropShippingFAQ.map((faq) => (
-            <div key={faq.question} className="border-b border-gray-200 py-4">
+            <div
+              key={faq.question}
+              className="border-b border-gray-200 py-4"
+              data-aos="fade-up"
+            >
               <button
                 className="flex w-full justify-between items-center text-left"
                 onClick={() =>
@@ -32,7 +39,13 @@ const DropShippinFaq = () => {
                   )
                 }
               >
-                <h3 className="text-lg font-medium text-white">
+                <h3
+                  className={`text-lg font-medium text-white ${
+                    isOpen === faq.question
+                      ? `underline underline-offset-8`
+                      : ``
+                  }`}
+                >
                   {faq.question}
                 </h3>
                 {isOpen === faq.question ? (
