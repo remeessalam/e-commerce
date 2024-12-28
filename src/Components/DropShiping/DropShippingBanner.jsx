@@ -2,7 +2,7 @@ import ReactPlayer from "react-player";
 import dropshippingbanner from "../../assets/video/dropshippingbanner.mp4";
 const DropShippingBanner = () => {
   return (
-    <div className="relative min-w-screen max-h-screen h-[75vh] flex justify-center md:justify-start items-center overflow-hidden">
+    <div className="relative w-screen max-h-screen h-[75vh] flex justify-center md:justify-start items-center overflow-hidden">
       <div className="absolute w-screen h-[100vh] sm:h-[75vh] top-0 overflow-hidden">
         <ReactPlayer
           url={dropshippingbanner}
