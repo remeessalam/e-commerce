@@ -8,19 +8,18 @@ const DropShippingBanner = () => {
           url={dropshippingbanner}
           playing
           muted
-          playsInline
           loop
-          pip={false}
-          controls={false} // Ensure controls are disabled
-          width="100vw"
-          height="100vh" // Set height to 100vh for proper coverage
+          playsinline // Lowercase attribute for cross-browser compatibility
+          controls={false}
+          width="100%"
+          height="100%"
           config={{
             file: {
               attributes: {
                 style: {
                   objectFit: "cover",
-                  width: "100vw",
-                  height: "100vh", // Ensure height matches the container
+                  width: "100%",
+                  height: "100%",
                 },
               },
             },
