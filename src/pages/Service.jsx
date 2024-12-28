@@ -28,7 +28,7 @@ const Service = () => {
       {/* <Serviceslist /> */}
       <Subscription />
       <FAQ />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <section className="py-[5rem] lg:py-[10rem]">
         <div className="wrapper">
           <div className="flex sm:flex-row flex-col justify-between gap-5 items-center">
@@ -138,9 +138,7 @@ const Service = () => {
         </div>
       </section>
       <LeadForm />
-      <section className="py-[5rem]">
-        <FeaturedIn />
-      </section>
+      <section className="py-[5rem]">{/* <FeaturedIn /> */}</section>
       <section
         data-aos="fade-up"
         className="wrapper flex flex-col items-center pb-[5rem]"

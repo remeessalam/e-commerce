@@ -35,11 +35,11 @@ const FeaturedIn = () => {
     },
   });
   return (
-    <div className="text-white flex flex-col gap-5 py-5">
+    <div className="text-white flex flex-col gap-5 py-5 overflow-hidden">
       <h3 className="text-3xl font-medium text-center uppercase">
         Featured In
       </h3>
-      <div className="bg-white">
+      <div className="bg-white overflow-hidden">
         <div ref={sliderRef} className="keen-slider">
           {[img1, img2, img3, img4, img5, img6].map((img, index) => (
             <div key={index} className="keen-slider__slide flex justify-center">

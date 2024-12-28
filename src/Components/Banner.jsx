@@ -18,14 +18,14 @@ const Banner = () => {
           loop
           pip={false}
           width="100vw"
-          height="100%"
+          height="100vh"
           config={{
             file: {
               attributes: {
                 style: {
                   objectFit: "cover",
                   width: "100vw",
-                  height: "100%",
+                  height: "100vh",
                 },
               },
             },
@@ -36,7 +36,7 @@ const Banner = () => {
         {/* <div className="absolute inset-0 bg-gradient-to-r from-black via-black/10 to-black/10" /> */}
       </div>
 
-      <div className="relative wrapper px-4 sm:px-6 lg:px-8 py-32">
+      <div className="relative wrapper px-4 sm:px-6 lg:px-8 py-24 sm:py-32">
         <div className="text-start">
           <div className="grid grid-cols-1  lg:grid-cols-1">
             <h1
