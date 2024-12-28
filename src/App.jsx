@@ -10,6 +10,7 @@ import LoadingSpinner from "./Components/LoadingSpinner";
 import { useContext } from "react";
 import { Toaster } from "react-hot-toast";
 import "keen-slider/keen-slider.min.css";
+import ScrollToTop from "./Components/ScrollToTop";
 function App() {
   AOS.init({
     once: true,
@@ -19,17 +20,18 @@ function App() {
 
   return (
     <SpinnerContextProvider>
-      <Toaster
-        position="top-center"
-        reverseOrder={false}
-        toastOptions={{
-          style: {
-            background: "#000000",
-            color: "#ffffff",
-          },
-        }}
-      />
       <Router>
+        <Toaster
+          position="top-center"
+          reverseOrder={false}
+          toastOptions={{
+            style: {
+              background: "#000000",
+              color: "#ffffff",
+            },
+          }}
+        />
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Service />} />
           <Route path="/dropshipping" element={<DropShiping />} />
