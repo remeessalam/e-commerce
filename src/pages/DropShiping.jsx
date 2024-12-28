@@ -29,12 +29,11 @@ const DropShiping = () => {
             us handle the complexities while you focus on building your brand
             and serving your customers.
           </p>
-          <button
-            data-aos="fade-up"
-            className="bg-primary1 text-black font-bold py-2 px-4 rounded hover:bg-primary transition duration-300"
-          >
-            Contact Us
-          </button>
+          <div data-aos="fade-up max-w-fit">
+            <button className="w-fit mt-4 transition-all duration-500 hover:scale-110  bg-primary text-white py-2 px-4 rounded-lg hover:bg-primary/90">
+              Contact Us
+            </button>
+          </div>
         </section>
       </div>
     </div>
