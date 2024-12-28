@@ -3,7 +3,7 @@ import dropshippingbanner from "../../assets/video/dropshippingbanner.mp4";
 const DropShippingBanner = () => {
   return (
     <div className="relative min-w-screen max-h-screen h-[75vh] flex justify-center md:justify-start items-center overflow-hidden">
-      <div className="absolute w-screen h-100vh sm:h-[75vh] top-0 overflow-hidden">
+      <div className="absolute w-screen h-[100vh] sm:h-[75vh] top-0 overflow-hidden">
         <ReactPlayer
           url={dropshippingbanner}
           playing
@@ -11,24 +11,25 @@ const DropShippingBanner = () => {
           playsInline
           loop
           pip={false}
-          controls={false}
+          controls={false} // Ensure controls are disabled
           width="100vw"
-          height="70vh"
+          height="100vh" // Set height to 100vh for proper coverage
           config={{
             file: {
               attributes: {
                 style: {
                   objectFit: "cover",
                   width: "100vw",
-                  height: "70vh",
+                  height: "100vh", // Ensure height matches the container
                 },
               },
             },
           }}
-          className=" object-cover h-100vh sm:h-[70vh]  opacity-50"
+          className="object-cover h-[100vh] sm:h-[75vh] opacity-50"
         />
         <div className="absolute inset-0 h-full w-full bg-black/30" />
       </div>
+
       <h1
         data-aos="fade-up"
         className="text-4xl md:text-7xl font-bold text-white max-w-[70rem] text-center md:text-start drop-shadow-2xl  md:ml-[10rem] mx-5 md:mx-0"
