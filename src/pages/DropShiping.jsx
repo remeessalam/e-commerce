@@ -8,7 +8,7 @@ import Header from "../Components/Header";
 
 const DropShiping = () => {
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="min-h-screen bg-black text-white overflow-hidden">
       <Header />
 
       <DropShippingBanner />
