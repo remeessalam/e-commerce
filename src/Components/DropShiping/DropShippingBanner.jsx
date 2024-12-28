@@ -26,7 +26,7 @@ const DropShippingBanner = () => {
           }}
           className="object-cover h-[100vh] sm:h-[75vh] opacity-50"
         />
-        <div className="absolute inset-0 h-full w-full bg-black/30" />
+        <div className="absolute left-0 top-0 h-full w-full bg-black/30" />
       </div>
 
       <h1
