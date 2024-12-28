@@ -1,14 +1,8 @@
 import ReactPlayer from "react-player";
-import bgImage from "../../assets/images/dropshipping.jpg";
 import dropshippingbanner from "../../assets/video/dropshippingbanner.mp4";
 const DropShippingBanner = () => {
   return (
-    <div
-      className="relative bg-center bg-cover min-w-screen  bg-no-repeat max-h-screen h-[75vh] flex justify-center md:justify-start items-center"
-      // style={{
-      //   backgroundImage: `url(${bgImage})`,
-      // }}
-    >
+    <div className="relative min-w-screen max-h-screen h-[75vh] flex justify-center md:justify-start items-center overflow-hidden">
       <div className="absolute w-screen h-100vh sm:h-[75vh] top-0 overflow-hidden">
         <ReactPlayer
           url={dropshippingbanner}
@@ -17,6 +11,7 @@ const DropShippingBanner = () => {
           playsInline
           loop
           pip={false}
+          controls={false}
           width="100vw"
           height="70vh"
           config={{
