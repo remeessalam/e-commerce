@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { faqData } from "../constant";
 import FaqItem from "./Faqitems";
 
@@ -20,15 +20,21 @@ const FAQ = () => {
         </h1>
         <div className="space-y-6">
           {faqData.map((faq) => (
-            <div data-aos="fade-up" className="bg-black" key={faq.id}>
-              <FaqItem
-                id={faq.id}
-                question={faq.title}
-                answer={faq.desc}
-                onClose={onClose}
-                setIsOpen={setIsOpen}
-                isOpen={isOpen}
-              />
+            <div data-aos="fade-up" className="bg-black " key={faq.id}>
+              <div
+                className={`bg-black hover:scale-110 transition-all duration-1000 ${
+                  isOpen === faq.id && `scale-110`
+                }`}
+              >
+                <FaqItem
+                  id={faq.id}
+                  question={faq.title}
+                  answer={faq.desc}
+                  onClose={onClose}
+                  setIsOpen={setIsOpen}
+                  isOpen={isOpen}
+                />
+              </div>
             </div>
           ))}
         </div>

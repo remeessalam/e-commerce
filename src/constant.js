@@ -10,6 +10,14 @@ import block from "./assets/images/serviceimg/block.jpg";
 import game from "./assets/images/serviceimg/game.jpg";
 import chat from "./assets/images/serviceimg/chat.jpg";
 import aicall from "./assets/images/serviceimg/aicall.jpg";
+// team members image
+import teamImg1 from "./assets/images/team/team1.jpg.webp";
+import teamImg2 from "./assets/images/team/team2.jpg.webp";
+import teamImg3 from "./assets/images/team/team3.jpg.webp";
+import teamImg4 from "./assets/images/team/team4.jpg.webp";
+import teamImg5 from "./assets/images/team/team5.jpg.webp";
+import teamImg6 from "./assets/images/team/team6.jpg.webp";
+import teamImg7 from "./assets/images/team/team7.webp";
 import {
   FaShippingFast,
   FaStore,
@@ -790,4 +798,14 @@ export const dropShippingFAQ = [
     answer:
       "While drop shipping is great for starting quickly and testing markets, many businesses eventually move to hybrid models, combining drop shipping with their inventory to increase control and margins.",
   },
+];
+
+export const teamMembers = [
+  { img: teamImg1, name: "Mahin BS", title: "Founder & Chairman" },
+  { img: teamImg2, name: "Reshab", title: "CEO" },
+  { img: teamImg5, name: "Supreeth Girish", title: "CTO" },
+  { img: teamImg6, name: "Darshan R Krishnan", title: "COO" },
+  { img: teamImg4, name: "Merlin Joy", title: "Associate Partner" },
+  { img: teamImg3, name: "Kavya R", title: "Associate Partner" },
+  { img: teamImg7, name: "Vidhya Naidu", title: "Associate Partner" },
 ];

@@ -49,12 +49,18 @@ const Subscription = () => {
 
               <div className="space-y-3 flex-grow">
                 {sixMonthPlanDetails.accordionDetails.map((detail, index) => (
-                  <Accordion
+                  <div
                     key={index}
-                    plan={detail}
-                    isOpen={openIndexOne === index}
-                    toggleAccordion={() => toggleAccordionOne(index)}
-                  />
+                    className={`hover:scale-110 transition-all duration-700 ${
+                      openIndexOne === index && `scale-110 py-5`
+                    }`}
+                  >
+                    <Accordion
+                      plan={detail}
+                      isOpen={openIndexOne === index}
+                      toggleAccordion={() => toggleAccordionOne(index)}
+                    />
+                  </div>
                 ))}
               </div>
 
@@ -65,17 +71,18 @@ const Subscription = () => {
                 >
                   {sixMonthPlanDetails.price}{" "}
                 </div>
-
-                <button
-                  data-aos="fade-up"
-                  className="w-full mt-4 bg-primary text-white py-2 px-4 rounded-lg hover:bg-primary/90 transition-colors"
-                  onClick={() => {
-                    window.location.href =
-                      "https://boostmysites.com/ai-expert/contact/step1";
-                  }}
-                >
-                  Subscribe
-                </button>
+                <div data-aos="fade-up">
+                  <button
+                    // data-aos="fade-up"
+                    className="primayButton"
+                    onClick={() => {
+                      window.location.href =
+                        "https://boostmysites.com/ai-expert/contact/step1";
+                    }}
+                  >
+                    Subscribe
+                  </button>
+                </div>
               </div>
             </div>
             <div className="flex flex-col p-6 sm:min-h-[832px] h-fit bg-black border border-primary rounded-lg">
@@ -95,12 +102,18 @@ const Subscription = () => {
 
               <div className="space-y-3 flex-grow">
                 {oneYearPlanDetails.accordionDetails.map((detail, index) => (
-                  <Accordion
+                  <div
                     key={index}
-                    plan={detail}
-                    isOpen={openIndexTwo === index}
-                    toggleAccordion={() => toggleAccordionTwo(index)}
-                  />
+                    className={`hover:scale-110 transition-all duration-700 ${
+                      openIndexTwo === index && `scale-110 py-5`
+                    }`}
+                  >
+                    <Accordion
+                      plan={detail}
+                      isOpen={openIndexTwo === index}
+                      toggleAccordion={() => toggleAccordionTwo(index)}
+                    />
+                  </div>
                 ))}
               </div>
 
@@ -111,16 +124,17 @@ const Subscription = () => {
                 >
                   {oneYearPlanDetails.price}{" "}
                 </div>
-                <button
-                  data-aos="fade-up"
-                  className="w-full mt-4 bg-primary text-white py-2 px-4 rounded-lg hover:bg-primary/90 transition-colors"
-                  onClick={() => {
-                    window.location.href =
-                      "https://boostmysites.com/ai-expert/contact/step1";
-                  }}
-                >
-                  Subscribe
-                </button>
+                <div data-aos="fade-up">
+                  <button
+                    className="primayButton"
+                    onClick={() => {
+                      window.location.href =
+                        "https://boostmysites.com/ai-expert/contact/step1";
+                    }}
+                  >
+                    Subscribe
+                  </button>
+                </div>
               </div>
             </div>
             <div className="flex flex-col p-6 sm:min-h-[832px] h-fit bg-black border border-primary rounded-lg">
@@ -139,32 +153,36 @@ const Subscription = () => {
 
               <div className="space-y-3 flex-grow">
                 {twoYearPlanDetails.accordionDetails.map((detail, index) => (
-                  <Accordion
+                  <div
                     key={index}
-                    plan={detail}
-                    isOpen={openIndexThree === index}
-                    toggleAccordion={() => toggleAccordionThree(index)}
-                  />
+                    className={`hover:scale-110 transition-all duration-700 ${
+                      openIndexThree === index && `scale-110 py-5`
+                    }`}
+                  >
+                    <Accordion
+                      plan={detail}
+                      isOpen={openIndexThree === index}
+                      toggleAccordion={() => toggleAccordionThree(index)}
+                    />
+                  </div>
                 ))}
               </div>
 
-              <div className="mt-6 text-center">
-                <div
-                  data-aos="fade-up"
-                  className="text-3xl font-bold text-primary mb-1"
-                >
+              <div className="mt-6 text-center" data-aos="fade-up">
+                <div className="text-3xl font-bold text-primary mb-1">
                   {twoYearPlanDetails.price}{" "}
                 </div>
-                <button
-                  data-aos="fade-up"
-                  className="w-full mt-4 bg-primary text-white py-2 px-4 rounded-lg hover:bg-primary/90 transition-colors"
-                  onClick={() => {
-                    window.location.href =
-                      "https://boostmysites.com/ai-expert/contact/step1";
-                  }}
-                >
-                  Subscribe
-                </button>
+                <div>
+                  <button
+                    className="primayButton"
+                    onClick={() => {
+                      window.location.href =
+                        "https://boostmysites.com/ai-expert/contact/step1";
+                    }}
+                  >
+                    Subscribe
+                  </button>
+                </div>
               </div>
             </div>
           </div>

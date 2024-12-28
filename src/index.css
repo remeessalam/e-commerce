@@ -12,6 +12,12 @@
   .wrapper {
     @apply max-w-7xl mx-auto px-4 md:px-8;
   }
+  .sm-blurred-red-circle {
+    @apply blur-[25px] bg-gradient-to-r from-[#450a0a] to-[#F0801C_90%] absolute h-[5rem] w-[5rem] rounded-full;
+  }
+  .primayButton {
+    @apply w-full mt-4 transition-all duration-500 hover:scale-110  bg-primary text-white py-2 px-4 rounded-lg hover:bg-primary/90;
+  }
 }
 
 h1,

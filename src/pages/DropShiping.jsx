@@ -4,16 +4,12 @@ import AboutDropShipping from "../Components/DropShiping/AboutDropShipping";
 import DropshippingServices from "../Components/DropShiping/DropshippingServices";
 import WhyChooseDropShipping from "../Components/DropShiping/whyChooseDropShipping";
 import DropShippinFaq from "../Components/DropShiping/DropShippinFaq";
+import Header from "../Components/Header";
 
 const DropShiping = () => {
   return (
     <div className="min-h-screen bg-black text-white">
-      <header className="bg-gray-900 py-6">
-        <div className="mx-auto text-center px-4">
-          <h1 className="text-3xl font-bold text-primary1">Boostmysites</h1>
-          <p className="mt-2 text-xl">Drop Shipping Support</p>
-        </div>
-      </header>
+      <Header />
 
       <DropShippingBanner />
       <AboutDropShipping />

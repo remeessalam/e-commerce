@@ -61,7 +61,7 @@ const Banner = () => {
           <div data-aos="fade-up" className="mt-10">
             <a
               href="https://boostmysites.com/ai-expert/contact/step1"
-              className="primary-btn inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-r from-primary to-[#D5AA12] hover:bg-primary/90 transition-colors"
+              className="primary-btn hover:scale-110 transition-all duration-300 inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-r from-primary to-[#D5AA12] hover:bg-primary/90  hover:bg-primary1"
             >
               Subscribe
             </a>
