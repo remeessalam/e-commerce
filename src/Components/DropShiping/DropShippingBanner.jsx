@@ -9,7 +9,7 @@ const DropShippingBanner = () => {
           playing
           muted
           loop
-          playsinline // Lowercase attribute for cross-browser compatibility
+          playsinline
           controls={false}
           width="100%"
           height="100%"

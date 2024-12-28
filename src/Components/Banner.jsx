@@ -14,9 +14,10 @@ const Banner = () => {
           url={bannerbgvid}
           playing
           muted
-          playsInline
+          playsinline
           loop
           pip={false}
+          controls={false}
           width="100vw"
           height="100vh"
           config={{
