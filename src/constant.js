@@ -517,7 +517,7 @@ export const oneYearPlanDetails = {
       ],
     },
   ],
-  price: "₹4,00,000 ",
+  price: "₹4,00,000 +GST",
 };
 
 export const twoYearPlanDetails = {
@@ -603,7 +603,7 @@ export const twoYearPlanDetails = {
       ],
     },
   ],
-  price: "₹5,00,000 ",
+  price: "₹5,00,000 +GST",
 };
 
 export const dropShippingServicesList = [
