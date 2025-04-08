@@ -392,73 +392,73 @@ export const faqData = [
   },
 ];
 
-export const sixMonthPlanDetails = {
-  title: "3 Months",
-  name: "Starter Package",
-  accordionDetails: [
-    {
-      title: "Custom E-commerce Website Development",
-      includes: [
-        "Designing and developing a fully functional e-commerce website tailored to your brand and product niche.",
-        "Integration of user-friendly navigation, secure payment gateways, and responsive design for mobile and desktop.",
-        "Basic SEO optimization to ensure better visibility on search engines.",
-      ],
-      benefits: [
-        "A professionally crafted website ready to showcase and sell your products.",
-        "A scalable foundation that can grow as your business expands.",
-      ],
-    },
-    {
-      title: "Dropshipping Support",
-      includes: [
-        "Guidance on selecting reliable dropshipping suppliers and platforms.",
-        "Setting up integrations with suppliers for automated order processing and inventory management.",
-        "Product listing assistance to ensure a smooth workflow.",
-      ],
-      benefits: [
-        "Operate without worrying about inventory management or warehousing costs.",
-        "Seamless supply chain support, enabling faster order fulfillment.",
-      ],
-    },
-    {
-      title: "3-Month Technical Support",
-      includes: [
-        "Troubleshooting website issues, such as payment gateway errors, page loading issues, or system downtime.",
-        "Ensuring regular updates and security patches for your website.",
-        "Providing assistance with minor customizations and feature enhancements.",
-      ],
-      benefits: [
-        "A hassle-free experience with prompt solutions for technical challenges.",
-        "Increased website reliability and customer satisfaction.",
-      ],
-    },
-    {
-      title: "Basic Training Modules",
-      includes: [
-        "Tutorials on operating and managing your e-commerce store, including product uploads, order tracking, and customer management.",
-        "Introductory training on using marketing tools like email campaigns and basic analytics.",
-        "Guidance on understanding dropshipping workflows and resolving common issues.",
-      ],
-      benefits: [
-        "Empowerment to independently manage your store effectively.",
-        "A foundation in essential e-commerce and marketing skills.",
-      ],
-    },
-    {
-      title: "Starter Marketing Support",
-      includes: [
-        "Assistance in creating and launching initial marketing campaigns across platforms like Google Ads, Facebook, and Instagram.",
-        "Providing basic ad copy, creatives, and targeting strategies.",
-        "Setting up and integrating tools like Google Analytics and Facebook Pixel for tracking campaign performance.",
-      ],
-      benefits: [
-        "Generate initial traffic to your store and begin building brand awareness.",
-        "Lay the groundwork for a consistent flow of potential customers.",
-      ],
-    },
-  ],
-  price: "₹1,24,000 ",
-};
+// export const sixMonthPlanDetails = {
+//   title: "3 Months",
+//   name: "Starter Package",
+//   accordionDetails: [
+//     {
+//       title: "Custom E-commerce Website Development",
+//       includes: [
+//         "Designing and developing a fully functional e-commerce website tailored to your brand and product niche.",
+//         "Integration of user-friendly navigation, secure payment gateways, and responsive design for mobile and desktop.",
+//         "Basic SEO optimization to ensure better visibility on search engines.",
+//       ],
+//       benefits: [
+//         "A professionally crafted website ready to showcase and sell your products.",
+//         "A scalable foundation that can grow as your business expands.",
+//       ],
+//     },
+//     {
+//       title: "Dropshipping Support",
+//       includes: [
+//         "Guidance on selecting reliable dropshipping suppliers and platforms.",
+//         "Setting up integrations with suppliers for automated order processing and inventory management.",
+//         "Product listing assistance to ensure a smooth workflow.",
+//       ],
+//       benefits: [
+//         "Operate without worrying about inventory management or warehousing costs.",
+//         "Seamless supply chain support, enabling faster order fulfillment.",
+//       ],
+//     },
+//     {
+//       title: "3-Month Technical Support",
+//       includes: [
+//         "Troubleshooting website issues, such as payment gateway errors, page loading issues, or system downtime.",
+//         "Ensuring regular updates and security patches for your website.",
+//         "Providing assistance with minor customizations and feature enhancements.",
+//       ],
+//       benefits: [
+//         "A hassle-free experience with prompt solutions for technical challenges.",
+//         "Increased website reliability and customer satisfaction.",
+//       ],
+//     },
+//     {
+//       title: "Basic Training Modules",
+//       includes: [
+//         "Tutorials on operating and managing your e-commerce store, including product uploads, order tracking, and customer management.",
+//         "Introductory training on using marketing tools like email campaigns and basic analytics.",
+//         "Guidance on understanding dropshipping workflows and resolving common issues.",
+//       ],
+//       benefits: [
+//         "Empowerment to independently manage your store effectively.",
+//         "A foundation in essential e-commerce and marketing skills.",
+//       ],
+//     },
+//     {
+//       title: "Starter Marketing Support",
+//       includes: [
+//         "Assistance in creating and launching initial marketing campaigns across platforms like Google Ads, Facebook, and Instagram.",
+//         "Providing basic ad copy, creatives, and targeting strategies.",
+//         "Setting up and integrating tools like Google Analytics and Facebook Pixel for tracking campaign performance.",
+//       ],
+//       benefits: [
+//         "Generate initial traffic to your store and begin building brand awareness.",
+//         "Lay the groundwork for a consistent flow of potential customers.",
+//       ],
+//     },
+//   ],
+//   price: "₹1,24,000 ",
+// };
 
 export const oneYearPlanDetails = {
   title: "1 Year",
@@ -517,7 +517,7 @@ export const oneYearPlanDetails = {
       ],
     },
   ],
-  price: "₹3,00,000 ",
+  price: "₹4,00,000 ",
 };
 
 export const twoYearPlanDetails = {
@@ -603,7 +603,7 @@ export const twoYearPlanDetails = {
       ],
     },
   ],
-  price: "₹4,00,000 ",
+  price: "₹5,00,000 ",
 };
 
 export const dropShippingServicesList = [

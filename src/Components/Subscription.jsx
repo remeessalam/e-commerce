@@ -1,20 +1,20 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Accordion from "./Accordion";
 import {
   oneYearPlanDetails,
-  sixMonthPlanDetails,
+  // sixMonthPlanDetails,
   twoYearPlanDetails,
 } from "../constant";
-import { AccordionProvider } from "../Context/AccordianContext";
+// import { AccordionProvider } from "../Context/AccordianContext";
 
 const Subscription = () => {
-  const [openIndexOne, setOpenIndexOne] = useState(null);
+  // const [openIndexOne, setOpenIndexOne] = useState(null);
   const [openIndexTwo, setOpenIndexTwo] = useState(null);
   const [openIndexThree, setOpenIndexThree] = useState(null);
 
-  const toggleAccordionOne = (index) => {
-    setOpenIndexOne(openIndexOne === index ? null : index);
-  };
+  // const toggleAccordionOne = (index) => {
+  //   setOpenIndexOne(openIndexOne === index ? null : index);
+  // };
   const toggleAccordionTwo = (index) => {
     setOpenIndexTwo(openIndexTwo === index ? null : index);
   };
@@ -32,8 +32,8 @@ const Subscription = () => {
             Subscription Plan
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
-            <div className="flex flex-col sm:min-h-[832px] h-fit p-6 bg-black border border-primary rounded-lg">
+          <div className="grid grid-cols-1 md:grid-cols-2  gap-8 mt-12">
+            {/* <div className="flex flex-col sm:min-h-[832px] h-fit p-6 bg-black border border-primary rounded-lg">
               <div className="flex items-center justify-center mb-6">
                 <div className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center">
                   <span className="text-primary">📅</span>
@@ -84,7 +84,7 @@ const Subscription = () => {
                   </button>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="flex flex-col p-6 sm:min-h-[832px] h-fit bg-black border border-primary rounded-lg">
               <div className="flex items-center justify-center mb-6">
                 <div className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center">
